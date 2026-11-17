@@ -23,7 +23,7 @@ const nodo3 = new Nodo({
     costo: 150000,
 });
 
-nodo1.siguiente = null;
+nodo1.siguiente = nodo2;
 nodo2.siguiente = nodo3;
 nodo3.siguiente = null; 
 
