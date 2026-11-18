@@ -34,8 +34,8 @@ class ListaEnlazada {
     }
     aArreglo(){
         const resultado = [];
-        this.recorrer((data) => 
-            resultado.push(data)
+        this.recorrer((dato) => 
+            resultado.push(dato)
         );
         return resultado;
     }
